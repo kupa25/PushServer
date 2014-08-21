@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Push Server";
+    ViewBag.Label = "Hello";
+}
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+Hello Push - WNS Edition!
+<p>
+    <b>Channel URI:</b>
+    <input id="channelUri" />
+</p>
+<p>
+    <b>Package Security Identifier</b>
+    <input id="SID" />
+</p>
+<p>
+    <b>Client Secret:</b>
+    <input id="secret" />
+</p>
+
+DIY Push
+Enter your own fully formatted xml<br/>
+<textarea id="pushxml"></textarea><br />
+
+<button id="pushbutton">Send Push</button>
